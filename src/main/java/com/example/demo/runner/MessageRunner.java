@@ -8,9 +8,9 @@ public class MessageRunner implements CommandLineRunner {
 
 	
 	public void run(String... args) throws Exception {
-		
-      System.out.println("WELCOME TO SPRING BOOT APP!");
-      System.out.println("Hello Modified");
+		 
+      int a=10;
+      System.out.println("Hello Modified"+a);
 	}
 
 }
